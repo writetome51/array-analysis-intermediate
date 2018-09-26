@@ -1,0 +1,1 @@
+These are functions that check content of passed array and return boolean.
