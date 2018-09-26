@@ -1,0 +1,24 @@
+{
+  "name": "@writetome51/array-analysis-intermediate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "array",
+    "manipulation",
+    "manipulator",
+    "swiss-army-knife",
+    "class"
+  ],
+  "author": "Steve Thompson",
+  "license": "MIT",
+  "dependencies": {
+    "basic-data-handling": "latest",
+    "@writetome51/arrays-match": "latest",
+    "@writetome51/array-and-index-validation": "latest",
+    "@writetome51/array-non-modifying-getters-basic": "latest"
+  }
+}
