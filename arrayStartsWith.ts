@@ -1,5 +1,5 @@
 import { getHead } from '@writetome51/array-non-modifying-getters-basic/getHead';
-import { _arrayStartsWith_or_EndsWith } from './_arrayStartsWith_or_EndsWith';
+import { _arrayStartsWith_or_EndsWith } from './privy/_arrayStartsWith_or_EndsWith';
 
 
 // values cannot contain object.

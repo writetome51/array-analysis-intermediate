@@ -6,20 +6,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/writetome51/array-analysis-intermediate.git"
-  },
   "keywords": [
     "array",
     "content",
-   "return-boolean"
+    "beginning",
+    "ending",
+    "check",
+    "return-boolean",
+    "boolean"
   ],
   "author": "Steve Thompson",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/writetome51/array-analysis-intermediate/issues"
-  },
   "dependencies": {
     "basic-data-handling": "latest",
     "@writetome51/arrays-match": "latest",

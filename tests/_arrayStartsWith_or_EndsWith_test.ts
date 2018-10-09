@@ -1,6 +1,6 @@
-import { _arrayStartsWith_or_EndsWith } from '../_arrayStartsWith_or_EndsWith';
-import { getHead } from '../../get/getHead';
-import { getTail } from '../../get/getTail';
+import { _arrayStartsWith_or_EndsWith } from '../privy/_arrayStartsWith_or_EndsWith';
+import { getHead } from '@writetome51/array-non-modifying-getters-basic/getHead';
+import { getTail } from '@writetome51/array-non-modifying-getters-basic/getTail';
 
 
 let arr: any[] = [[1, 2], 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, [1, 2]];

@@ -1,8 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var _arrayStartsWith_or_EndsWith_1 = require("../_arrayStartsWith_or_EndsWith");
-var getHead_1 = require("../../get/getHead");
-var getTail_1 = require("../../get/getTail");
+var _arrayStartsWith_or_EndsWith_1 = require("../privy/_arrayStartsWith_or_EndsWith");
+var getHead_1 = require("@writetome51/array-non-modifying-getters-basic/getHead");
+var getTail_1 = require("@writetome51/array-non-modifying-getters-basic/getTail");
 var arr = [[1, 2], 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, [1, 2]];
 // Test 1: The function works if a nested array is in the array:
 var startsWith = [[1, 2], 1, 2, 3, 4];
