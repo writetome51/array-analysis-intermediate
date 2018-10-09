@@ -1,5 +1,5 @@
 {
-  "name": "@writetome51/array-analysis-intermediate",
+  "name": "@writetome51/array-starts-with-ends-with",
   "version": "1.0.0",
   "description": "functions that check content of passed array and return boolean",
   "main": "",
