@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var getTail_1 = require("@writetome51/array-non-modifying-getters-basic/getTail");
+var getTail_1 = require("@writetome51/array-get-head-tail/getTail");
 var _arrayStartsWith_or_EndsWith_1 = require("./privy/_arrayStartsWith_or_EndsWith");
 // values cannot contain object.
 function arrayEndsWith(values, array) {

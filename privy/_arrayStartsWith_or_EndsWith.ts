@@ -1,4 +1,4 @@
-import { arraysMatch } from '@writetome51/arrays-match/arraysMatch';
+import { arraysMatch } from '@writetome51/arrays-match';
 import { isEmpty } from 'basic-data-handling/isEmpty_notEmpty';
 import { errorIfArrayTooShortFor } 
 	from '@writetome51/array-and-index-validation/errorIf/errorIfArrayTooShortFor';

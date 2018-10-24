@@ -1,6 +1,6 @@
 {
   "name": "@writetome51/array-starts-with-ends-with",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "functions that check content of passed array and return boolean",
   "main": "",
   "scripts": {
@@ -21,6 +21,6 @@
     "basic-data-handling": "latest",
     "@writetome51/arrays-match": "latest",
     "@writetome51/array-and-index-validation": "latest",
-    "@writetome51/array-non-modifying-getters-basic": "latest"
+    "@writetome51/array-get-head-tail": "latest"
   }
 }

@@ -1,4 +1,4 @@
-import { getTail } from '@writetome51/array-non-modifying-getters-basic/getTail';
+import { getTail } from '@writetome51/array-get-head-tail/getTail';
 import { _arrayStartsWith_or_EndsWith } from './privy/_arrayStartsWith_or_EndsWith';
 
 
