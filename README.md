@@ -10,4 +10,8 @@ NOTICE: parameter 'values' cannot contain object.
 Examples:
 
 let arr = ['a','b','e','f','g','h','i'];  
-arrayStartsWith(['a','b','e'], arr); // true
+arrayStartsWith(['a','b','e'], arr); // true  
+
+let arr = ['a','b','e','f','g','h','i'];  
+arrayEndsWith(['h','i','j'], arr); // false  
+arrayEndsWith(['h','i'], arr); // true
