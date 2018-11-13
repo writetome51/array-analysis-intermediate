@@ -15,3 +15,4 @@ arrayStartsWith(['a','b','e'], arr); // true
 let arr = ['a','b','e','f','g','h','i'];  
 arrayEndsWith(['h','i','j'], arr); // false  
 arrayEndsWith(['h','i'], arr); // true
+
