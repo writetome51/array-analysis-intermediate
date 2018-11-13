@@ -1,4 +1,4 @@
-import { getHead } from '@writetome51/array-get-head-tail/getHead';
+import { getHead } from '@writetome51/array-get-head-tail';
 import { _arrayStartsWith_or_EndsWith } from './privy/_arrayStartsWith_or_EndsWith';
 
 
