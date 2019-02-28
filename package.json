@@ -1,6 +1,6 @@
 {
   "name": "@writetome51/array-starts-with-ends-with",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Functions that check if array starts with certain items, or ends with certain items",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
