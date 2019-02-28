@@ -1,6 +1,4 @@
 import { _arrayStartsWith_or_EndsWith } from '../privy/_arrayStartsWith_or_EndsWith';
-import { getHead } from '@writetome51/array-get-head-tail';
-import { getTail } from '@writetome51/array-get-head-tail';
 
 
 let arr: any[] = [[1, 2], 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, [1, 2]];

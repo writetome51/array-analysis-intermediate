@@ -6,3 +6,8 @@ function arrayEndsWith(values, array) {
     return _arrayStartsWith_or_EndsWith_1._arrayStartsWith_or_EndsWith('ends', values, array);
 }
 exports.arrayEndsWith = arrayEndsWith;
+// values cannot contain object.
+function arrayStartsWith(values, array) {
+    return _arrayStartsWith_or_EndsWith_1._arrayStartsWith_or_EndsWith('starts', values, array);
+}
+exports.arrayStartsWith = arrayStartsWith;
