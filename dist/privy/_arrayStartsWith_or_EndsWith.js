@@ -1,13 +1,13 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var arrays_match_1 = require("@writetome51/arrays-match");
-var isEmpty_notEmpty_1 = require("basic-data-handling/isEmpty_notEmpty");
+var error_if_array_too_short_to_meet_adjacent_items_request_1 = require("error-if-array-too-short-to-meet-adjacent-items-request");
 var array_get_head_tail_1 = require("@writetome51/array-get-head-tail");
-var errorIfArrayTooShortFor_1 = require("@writetome51/array-and-index-validation/errorIf/errorIfArrayTooShortFor");
+var is_empty_not_empty_1 = require("@writetome51/is-empty-not-empty");
 function _arrayStartsWith_or_EndsWith(startsOrEnds, values, array) {
-    if (isEmpty_notEmpty_1.isEmpty(values))
+    if (is_empty_not_empty_1.isEmpty(values))
         return arrays_match_1.arraysMatch(values, array);
-    errorIfArrayTooShortFor_1.errorIfArrayTooShortFor(values.length, array); // this is mainly for the getTail() function.
+    error_if_array_too_short_to_meet_adjacent_items_request_1.errorIfArrayTooShortToMeetAdjacentItemsRequest(0, values.length, array.length);
     var valuesThatMightMatch;
     if (startsOrEnds === 'starts')
         valuesThatMightMatch = array_get_head_tail_1.getHead(values.length, array);
