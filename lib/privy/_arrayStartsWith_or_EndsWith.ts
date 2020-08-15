@@ -1,22 +1,17 @@
 import { arraysMatch } from '@writetome51/arrays-match';
-import { errorIfArrayTooShortToMeetAdjacentItemsRequest }
-	from 'error-if-array-too-short-to-meet-adjacent-items-request';
-import { getHead, getTail } from '@writetome51/array-get-head-tail';
+import { errorIfNotArray } from 'error-if-not-array';
 import { isEmpty } from '@writetome51/is-empty-not-empty';
 
 
 export function _arrayStartsWith_or_EndsWith(
-	startsOrEnds: "starts" | "ends", 
-	values, 
+	getHeadOrTail: (howMany: number, array: any[]) => any[],
+	values,
 	array
 ): boolean {
-
-	if (isEmpty(values)) return arraysMatch(values, array);
-	errorIfArrayTooShortToMeetAdjacentItemsRequest(0, values.length, array.length);
-
-	let valuesThatMightMatch: any[];
-	if (startsOrEnds === 'starts') valuesThatMightMatch = getHead(values.length, array);
-	else valuesThatMightMatch = getTail(values.length, array);
-
+	if (isEmpty(values)) {
+		errorIfNotArray(values); // in case it's another type that also has length property.
+		return isEmpty(array);
+	}
+	let valuesThatMightMatch = getHeadOrTail(values.length, array);
 	return arraysMatch(values, valuesThatMightMatch);
 }
